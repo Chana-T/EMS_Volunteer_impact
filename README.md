@@ -11,17 +11,18 @@ NYC's 911 emergency dispatch system sends out ambulances on thousands of calls e
 * [Data Processing and Reduction](./code/data_processing_and_reduction.ipynb)
 * 
 
-## DATA
+### DATA
 * [NYC EMS Dispatch Data](https://data.cityofnewyork.us/Public-Safety/EMS-Incident-Dispatch-Data/76xm-jjuj)
+ - Stored off-line because dataset too large for GitHub to comfortably accommodate
 * [Zipcode Boundaries from NYC Open Data](https://data.cityofnewyork.us/Business/Zip-Code-Boundaries/i8iw-xf4u)
 
 | Variable | Description |
 | --- | --- |
 |CAD_INCIDENT_ID | An incident identifier comprising the julian date and a 4 character sequence number starting at 1 each day|
 |INCIDENT_DATETIME | The date and time the incident was created in the dispatch system|
-|INITIAL_CALL_TYPE * | The call type assigned at the time of incident creation|
+|INITIAL_CALL_TYPE  | The call type assigned at the time of incident creation|
 |INITIAL_SEVERITY_LEVEL_CODE | The segment(priority) assigned at the time of incident creation|
-|FINAL_CALL_TYPE * | The call type at the time the incident closes|
+|FINAL_CALL_TYPE  | The call type at the time the incident closes|
 |FINAL_SEVERITY_LEVEL_CODE | The segment(priority) assigned at the time the incident closes|
 |FIRST_ASSIGNMENT_DATETIME | The date and time the first unit is assigned|
 |VALID_DISPATCH_RSPNS_TIME_INDC | Indicates that the components comprising the calculation of the DISPATCH_RESPONSE_SECONDS_QY are valid|
@@ -37,17 +38,8 @@ NYC's 911 emergency dispatch system sends out ambulances on thousands of calls e
 |HELD_INDICATOR | Indicates that for some reason a unit could not be assigned immediately|
 |INCIDENT_DISPOSITION_CODE | A code indicating the final outcome of the incident. See incident dispositions|
 |BOROUGH | The borough of the incident location|
-|ATOM | The smallest subdivision of the borough where the incident is located|
 |INCIDENT_DISPATCH_AREA | The dispatch area of the incident|
 |ZIPCODE | The zip code of the incident|
-|POLICEPRECINCT | The police precinct of the incident|
-|CITYCOUNCILDISTRICT | The city council district|
-|COMMUNITYDISTRICT | The community district|
-|COMMUNITYSCHOOLDISTRICT | The community school district|
-|CONGRESSIONALDISTRICT | The congressional district|
-|REOPEN_INDICATOR | Indicates that at some point the incident was closed but then reopened|
-|SPECIAL_EVENT_INDICATOR | Indicates that the incident was a special event such as the NYC Marathon|
-|STANDBY_INDICATOR | Indicates that the units were assigned to stand by incase they were needed|
-|TRANSFER_INDICATOR | Indicates that the incident was created for the  transportation of a patient from one facility (ie a hospital or nursing home) to another|
+
 
 ## Conclusions & Future Work
