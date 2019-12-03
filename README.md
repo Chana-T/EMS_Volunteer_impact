@@ -8,7 +8,7 @@ NYC's 911 emergency dispatch system sends out ambulances on thousands of calls e
 
 
 ### Workflow
-* [Data Processing and Reduction]('./code/data_processing_and_reduction.ipynb')
+* [Data Processing and Reduction](./code/data_processing_and_reduction.ipynb)
 * 
 
 ## DATA
