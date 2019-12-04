@@ -9,11 +9,12 @@ NYC's 911 emergency dispatch system sends out ambulances on thousands of calls e
 
 ### Workflow
 * [Data Processing and Reduction](./code/data_processing_and_reduction.ipynb)
-* 
+* [Dispatch EDA and Clustering](./code/dispatch_EDA_and_clustering.ipynb)
 
 ### DATA
 * [NYC EMS Dispatch Data](https://data.cityofnewyork.us/Public-Safety/EMS-Incident-Dispatch-Data/76xm-jjuj)
     * Stored off-line because dataset too large for GitHub to comfortably accommodate
+* [Reduced/Processed Dispatch Data--used in EDA notebook](https://drive.google.com/file/d/1ry0yvvLWxXXjHFxiUqGnR_Y-OwtTM0dp/view?usp=sharing)
 * [Zipcode Boundaries from NYC Open Data](https://data.cityofnewyork.us/Business/Zip-Code-Boundaries/i8iw-xf4u)
 
 | Variable | Description |
