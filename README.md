@@ -9,8 +9,8 @@ NYC's 911 emergency dispatch system sends out ambulances on thousands of calls e
 The NYC EMS Dispatch Data file was 2 GB in size, containing records of 8.5 million calls over 6 years, from Jan 1, 2013 to Dec 31, 2018. 
 
 ### Workflow
-* [Data Processing and Reduction](./code/data_processing_and_reduction.ipynb)
-* [Dispatch EDA and Clustering](./code/dispatch_EDA_and_clustering.ipynb)
+* [1. Data Processing and Reduction](./code/data_processing_and_reduction.ipynb)
+* [2. Dispatch EDA and Clustering](./code/dispatch_EDA_and_clustering.ipynb)
 
 ### DATA
 * [NYC EMS Dispatch Data](https://data.cityofnewyork.us/Public-Safety/EMS-Incident-Dispatch-Data/76xm-jjuj)
