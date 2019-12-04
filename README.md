@@ -6,6 +6,7 @@ NYC's 911 emergency dispatch system sends out ambulances on thousands of calls e
 
 ## Executive Summary
 
+The NYC EMS Dispatch Data file was 2 GB in size, containing records of 8.5 million calls over 6 years, from Jan 1, 2013 to Dec 31, 2018. 
 
 ### Workflow
 * [Data Processing and Reduction](./code/data_processing_and_reduction.ipynb)
@@ -43,4 +44,12 @@ NYC's 911 emergency dispatch system sends out ambulances on thousands of calls e
 |ZIPCODE | The zip code of the incident|
 
 
-## Conclusions & Future Work
+## Conclusions
+
+k-modes defines clusters based on the number of matching categories between data points. As `INCIDENT_DISPATCH_AREA`, of all the features used in k-modes, is the one with the smallest number of (and most evenly distributed) categories, it is logical that it would be the primary way that individual calls are assigned to clusters.  
+
+## Future Work
+
+* Further investigation into on-scene times, possibly median time per zipcode
+* Reduce call types to ~top 20, and see if this reduces the variability in k-modes
+* 
