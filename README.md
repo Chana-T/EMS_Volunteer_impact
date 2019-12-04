@@ -6,7 +6,7 @@ NYC's 911 emergency dispatch system sends out ambulances on thousands of calls e
 
 ## Executive Summary
 
-The NYC EMS Dispatch Data file was 2 GB in size, containing records of 8.5 million calls over 6 years, from Jan 1, 2013 to Dec 31, 2018. 
+The NYC EMS Dispatch Data file was 2 GB in size, containing records of 8.5 million calls over 6 years, from Jan 1, 2013 to Dec 31, 2018. To reduce the volume of data and make it easier to handle, preprocessing was done in Notebook 1. Since many volunteer EMTs keep normal working hours, the major data reduction involved isolating only incidents that began between 7 PM and midnight, removing almost 80% of the original data. Additionally, rows missing either zipcodes or incident disposition codes (which indicate the final outcome of an incident, and are a focal point of this project) were deleted. All date-times were converted from `object` to `datetime` format--which was not preserved when the processed data was saved to a .csv, but the reformatting was such that when the .csv is read, with
 
 ### Workflow
 * [1. Data Processing and Reduction](./code/data_processing_and_reduction.ipynb)
