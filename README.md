@@ -13,7 +13,7 @@ NYC's 911 emergency dispatch system sends out ambulances on thousands of calls e
 
 ### DATA
 * [NYC EMS Dispatch Data](https://data.cityofnewyork.us/Public-Safety/EMS-Incident-Dispatch-Data/76xm-jjuj)
- - Stored off-line because dataset too large for GitHub to comfortably accommodate
+    * Stored off-line because dataset too large for GitHub to comfortably accommodate
 * [Zipcode Boundaries from NYC Open Data](https://data.cityofnewyork.us/Business/Zip-Code-Boundaries/i8iw-xf4u)
 
 | Variable | Description |
